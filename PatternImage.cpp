@@ -28,7 +28,7 @@ unsigned char *PatternImage::generate ( )
 	return image;
 }
 
-unsigned char *PatternImage::generateByPallete ( RangePallete &rp )
+unsigned char *PatternImage::generateByPalette ( RangePalette &rp )
 {
 	const unsigned count = sSize*sSize*4;
 	unsigned char *image = new unsigned char[count];

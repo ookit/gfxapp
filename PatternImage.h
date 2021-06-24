@@ -1,13 +1,13 @@
 #pragma once
 
-#include "RangePallete.h"
+#include "RangePalette.h"
 
 class PatternImage
 {
     static unsigned char sSize;
 public:
     static unsigned char *generate ( );
-    static unsigned char *generateByPallete ( RangePallete &rp );
+    static unsigned char *generateByPalette ( RangePalette &rp );
     static void setSize ( const unsigned char a ) {
         sSize = a;
     }
